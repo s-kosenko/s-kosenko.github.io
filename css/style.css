@@ -181,13 +181,13 @@ h6 {
 }
 
 #header .logo h1 {
-  font-size: 36px;
+  font-size: 16px;
   margin: 0;
   padding: 0;
   line-height: 1;
   font-weight: 400;
-  letter-spacing: 3px;
-  text-transform: uppercase;
+  letter-spacing: 1.5px;
+
 }
 
 #header .logo h1 a,
