@@ -201,12 +201,9 @@ h6 {
   margin: 7px 0;
   max-height: 26px;
 }
-.img-logo {
-  /*padding-right: 20px;*/
-  /*margin: 0 10px;*/
-  margin: -15px 0 0 10px;
-
-  width: 27%;
+a .img-logo {
+  margin: -15px 0 0 25px ;
+  width: 25%;
 }
 .main-pages {
   margin-top: 60px;
@@ -220,8 +217,11 @@ h6 {
   width: 100%;
   height: 100vh;
   position: relative;
-  background: #f5f8fd url("../img/intro-bg-slide.jpg") center top no-repeat;
+  background: #f5f8fd;
   background-size: cover;
+}
+#intro .img-fluid {
+  width: auto;
 }
 
 #intro .intro-info h2 {
