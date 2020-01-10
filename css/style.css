@@ -202,8 +202,8 @@ h6 {
   max-height: 26px;
 }
 a .img-logo {
-  margin: -15px 0 0 25px ;
-  width: 25%;
+  margin: -15px 0 0 0 ;
+  width: 60%;
 }
 .main-pages {
   margin-top: 60px;
