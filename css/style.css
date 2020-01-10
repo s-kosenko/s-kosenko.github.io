@@ -196,12 +196,18 @@ h6 {
   text-decoration: none;
 }
 
-#header .logo img {
+#header .logo {
   padding: 0;
   margin: 7px 0;
   max-height: 26px;
 }
+.img-logo {
+  /*padding-right: 20px;*/
+  /*margin: 0 10px;*/
+  margin: -15px 0 0 10px;
 
+  width: 27%;
+}
 .main-pages {
   margin-top: 60px;
 }
