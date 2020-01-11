@@ -256,7 +256,8 @@ a .img-logo {
     padding-left: 20px;
     font-size: 48px;
     font-weight: 700;
-    text-shadow: -4px 4px 3px white;
+    text-shadow: 2px 2px 2px white,2px 2px 2px grey;
+    /*text-shadow: -4px 4px 3px #96FFFF;*/
 }
 
 #intro .intro-info h4 {
@@ -606,14 +607,51 @@ a .img-logo {
   transition: .5s;
 }
 
-/* Services Section
+#about .counters {
+    padding-top: 40px;
+}
+
+#about .counters span {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    display: block;
+    color: #555186;
+}
+
+#about .counters p {
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: #8a87b6;
+}
+
+/* Services
+    Section1
 --------------------------------*/
 
-#services {
+#services1,#services2 {
   padding: 60px 0 40px 0;
 }
 
-#services .box {
+#services1 h2 {
+    color: #413e66;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-weight: 700;
+        text-shadow: -2px 2px 2px white;
+}
+#services1 h3 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 56px;
+    margin-bottom: 25px;
+    color: #0981C1;
+    text-shadow: -2px 2px 2px white;
+}
+
+#services1 .box {
   padding: 30px;
   position: relative;
   overflow: hidden;
@@ -625,12 +663,12 @@ a .img-logo {
   text-align: center;
 }
 
-#services .box:hover {
+#services1 .box:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
 
-#services .icon {
+#services1 .icon {
   margin: 0 auto 15px auto;
   padding-top: 12px;
   display: inline-block;
@@ -640,31 +678,107 @@ a .img-logo {
   height: 60px;
 }
 
-#services .icon i {
+#services1 .icon i {
   font-size: 36px;
   line-height: 1;
 }
 
-#services .title {
+#services1 .title {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-#services .title a {
+#services1 .title a {
   color: #111;
 }
 
-#services .box:hover .title a {
+#services1 .box:hover .title a {
   color: #1bb1dc;
 }
 
-#services .description {
+#services1 .description {
   font-size: 14px;
   line-height: 28px;
   margin-bottom: 0;
   text-align: left;
 }
+
+/* Services
+Section2
+--------------------------------*/
+
+#services2 h2 {
+    color: #413e66;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-weight: 700;
+    text-shadow: -2px 2px 2px white;
+}
+#services2 h3 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 56px;
+    margin-bottom: 25px;
+    color: #0981C1;
+    text-shadow: -2px 2px 2px white;
+}
+
+#services2 .box {
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 0 10px 40px 10px;
+    background: #fff;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+}
+
+#services2 .box:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#services2 .icon {
+    margin: 0 auto 15px auto;
+    padding-top: 12px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+#services2 .icon i {
+    font-size: 36px;
+    line-height: 1;
+}
+
+#services2 .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+#services2 .title a {
+    color: #111;
+}
+
+#services2 .box:hover .title a {
+    color: #1bb1dc;
+}
+
+#services2 .description {
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+
+
 
 /* Why Us Section
 --------------------------------*/
