@@ -1366,7 +1366,8 @@ Section2
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #f5f8fd;
+  border-top: 1px solid #7da0ce;
+    background: #f5f8fd;
 }
 
 #footer .footer-top .footer-info {
@@ -1615,14 +1616,12 @@ Section2
     padding-top: 80px;
   }
 
-  #testimonials .testimonial-item p {
-    width: 80%;
-  }
-}
 
 @media (max-width: 991px) {
   #topbar {
     display: none;
+    #intro .intro-info {
+        padding-top: 80px;
   }
 
   #header {
@@ -1631,7 +1630,7 @@ Section2
   }
 
   #header .logo h1 {
-    font-size: 28px;
+    font-size: 20px;
     padding: 8px 0;
   }
 
