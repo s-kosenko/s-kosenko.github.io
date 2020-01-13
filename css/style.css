@@ -1615,13 +1615,22 @@ Section2
   #intro .intro-info {
     padding-top: 80px;
   }
+  #testimonials .testimonial-item p {
+    width: 80%;
+  }
+}
+
 
 
 @media (max-width: 991px) {
+
+  #intro .intro-img {
+    width: 70%;
+  }
+
+
   #topbar {
     display: none;
-    #intro .intro-info {
-        padding-top: 80px;
   }
 
   #header {
