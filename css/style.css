@@ -1357,17 +1357,55 @@ Section2
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-
-#footer {
-  padding: 0 0 30px 0;
-  font-size: 14px;
-  background: #fff;
+#call-to-action {
+  background: #2d2b46;
+  background-size: cover;
+  padding: 40px 0;
 }
 
+#call-to-action .cta-title {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#call-to-action .cta-text {
+  color: #fff;
+}
+
+#call-to-action .cta-btn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 26px;
+  border-radius: 3px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 3px solid #fff;
+  color: #fff;
+}
+
+#call-to-action .cta-btn:hover {
+  background: #1bb1dc;
+  border: 3px solid #1bb1dc;
+
+
+
+
+
+/*#footer {*/
+/*  padding: 0 0 30px 0;*/
+/*  font-size: 14px;*/
+/*  background: #2d2b46;*/
+/*}*/
+
 #footer .footer-top {
-  padding: 60px 0 30px 0;
+  padding: 30px 0 30px 0;
   border-top: 1px solid #7da0ce;
-    background: #f5f8fd;
+    background: #2d2b46;
+  color: white;
 }
 
 #footer .footer-top .footer-info {
@@ -1449,77 +1487,7 @@ Section2
   color: #1bb1dc;
 }
 
-#footer .footer-top .footer-contact {
-  margin-bottom: 30px;
-}
-
-#footer .footer-top .footer-contact p {
-  line-height: 26px;
-}
-
-#footer .footer-top .footer-newsletter {
-  margin-bottom: 30px;
-}
-
-#footer .footer-top .footer-newsletter input[type="email"] {
-  border: 0;
-  padding: 6px 8px;
-  width: 65%;
-  border: 1px solid #d9dde6;
-}
-
-#footer .footer-top .footer-newsletter input[type="submit"] {
-  background: #1bb1dc;
-  border: 1px solid #1bb1dc;
-  width: 35%;
-  padding: 6px 0;
-  text-align: center;
-  color: #fff;
-  transition: 0.3s;
-  cursor: pointer;
-}
-
-#footer .footer-top .footer-newsletter input[type="submit"]:hover {
-  background: #0a98c0;
-}
-
-#footer .footer-top .form .form-group {
-  margin-bottom: 15px;
-}
-
-#footer .footer-top .form #sendmessage {
-  color: #fff;
-  background: #1bb1dc;
-  display: none;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-#footer .footer-top .form #errormessage {
-  color: #fff;
-  display: none;
-  background: red;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-#footer .footer-top .form #sendmessage.show,
-#footer .footer-top .form #errormessage.show,
-#footer .footer-top .form .show {
-  display: block;
-}
-
-#footer .footer-top .form .validation {
-  color: red;
-  display: none;
-  margin: 0 0 20px;
-  font-weight: 400;
-  font-size: 13px;
-}
+/
 
 #footer .footer-top .form label {
   color: #413e66;
@@ -1589,6 +1557,55 @@ Section2
 #footer .credits a:hover {
   color: #0a98c0;
 }
+/*-------------------------
+# Card-dest respontible
+----------------------- */
+
+.card-deck {
+  margin: 0 -15px;
+  justify-content: space-between;
+}
+
+.card-deck .card {
+  margin: 0 0 1rem;
+}
+@media (min-width: 576px) {
+  .card-deck .card {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex: 1 0 0%;
+    flex: 1 0 0%;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-right: 15px;
+    margin-bottom: 0;
+    margin-left: 15px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .card-deck .card {
+    -ms-flex: 0 0 48.7%;
+    flex: 0 0 48.7%;
+
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .card-deck .card {
+    -ms-flex: 0 0 32%;
+    flex: 0 0 32%;
+  }
+}
+
+@media (min-width: 992px)
+{
+  .card-deck .card {
+    -ms-flex: 0 0 24%;
+    flex: 0 0 31%;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Responsive Media Queries
