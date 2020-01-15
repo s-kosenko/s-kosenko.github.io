@@ -526,7 +526,13 @@ a .img-logo {
 .section-bg {
   background: #f5f8fd;
 }
+.section-blue {
+  background: rgba(141, 194, 250, 0.42);
 
+}
+.section-blue h4 {
+  color: white;
+}
 /* About Us Section
 --------------------------------*/
 
@@ -832,43 +838,7 @@ Section2
   color: #8a87b6;
 }
 
-/* Call To Action Section
---------------------------------*/
 
-#call-to-action {
-  background: #2d2b46;
-  background-size: cover;
-  padding: 40px 0;
-}
-
-#call-to-action .cta-title {
-  color: #fff;
-  font-size: 28px;
-  font-weight: 700;
-}
-
-#call-to-action .cta-text {
-  color: #fff;
-}
-
-#call-to-action .cta-btn {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 8px 26px;
-  border-radius: 3px;
-  transition: 0.5s;
-  margin: 10px;
-  border: 3px solid #fff;
-  color: #fff;
-}
-
-#call-to-action .cta-btn:hover {
-  background: #1bb1dc;
-  border: 3px solid #1bb1dc;
-}
 
 /* Features Section
 --------------------------------*/
@@ -1394,7 +1364,7 @@ Section2
 
 
 #footer{
-  background-color: #64677c;
+  background-color: #75798c;
   color: #fff;
 }
 .footer-top .footer-links h3 {
