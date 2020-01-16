@@ -111,8 +111,8 @@
     });
   });
 
-  // Testimonials carousel (uses the Owl Carousel library)
-  $(".testimonials-carousel").owlCarousel({
+  // Extra-schools carousel (uses the Owl Carousel library)
+  $(".extra-schools-carousel").owlCarousel({
     autoplay: true,
     dots: true,
     loop: true,
