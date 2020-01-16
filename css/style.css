@@ -808,8 +808,8 @@ Study Section
 }
 
 #study .card .card-title {
-    margin-bottom: 16px;
-    font-size: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
     color: #535074;
 }
 
@@ -1164,11 +1164,14 @@ Physics
 
 #footer {
     padding: 15px 0 30px 0;
+    margin: 2em 0;
     background-color: #75798c;
     color: #fff;
 }
 
-.footer-top .footer-info h3 {
+
+.footer-top .footer-info h3,
+#footer .footer-top .footer-links h3 {
     font-size: 14px;
     margin: 20px 0;
     padding: 2px 0;
@@ -1195,33 +1198,35 @@ Physics
     font-family: "Montserrat", sans-serif;
 }
 
-#footer .footer-top .footer-links ul {
-    list-style: none;
-    font-family: "Montserrat", sans-serif;
-    padding: 0;
-    margin: 0;
-}
-
-#footer .footer-top .footer-links ul li {
+#footer .footer-top .footer-links p {
+    font-size: 13px;
     padding: 1px 0;
+    margin-bottom: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+}
+
+#footer .footer-top .footer-links  a {
+    color: #0b3cb3;
     font-family: "Montserrat", sans-serif;
 }
 
-#footer .footer-top .footer-links ul li:first-child {
-    padding-top: 0;
+#footer .footer-top .footer-links a:hover {
+    color: #6feeff;
+
 }
 
-#footer .footer-top .footer-links ul a {
-    color: #b3e9ff;
+#footer .footer-top .author {
+  color: #b3e9ff;
+    font-weight: 400;
+    letter-spacing: 1px;
     font-family: "Montserrat", sans-serif;
-}
-
-#footer .footer-top .footer-links ul a:hover {
-    color: #01acff;
+    padding: 30px 0 5px 0;
+    font-size: 13px;
 
 }
-
-
 
 
 
