@@ -766,8 +766,9 @@ Study Section
     margin-bottom: 20px;
     padding: 5px 0;
 }
-#study li {
-    padding-left: 3px;
+#study .li-blue li {
+    list-style: none;
+    padding-left: 30px;
     text-align: left;
 }
 #study .card {
@@ -777,6 +778,12 @@ Study Section
     transition: all .3s ease-in-out;
     padding: 20px 0;
     position: relative;
+}
+#study .li-blue li i {
+    font-size: 20px;
+    padding-right: 4px;
+    color: #1bb1dc;
+
 }
 
 #study .card:after {
