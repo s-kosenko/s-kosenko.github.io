@@ -423,7 +423,7 @@ a .img-logo {
 
 .section-header h3 {
     font-size: 32px;
-    color: #413e66;
+    color: #923383;
     text-align: center;
     font-weight: 700;
     position: relative;
@@ -443,7 +443,7 @@ a .img-logo {
 --------------------------------*/
 
 .section-bg {
-    background: #f5f8fd;
+    background: #f3f8fd;
 }
 .section-blue {
     background: rgba(141, 194, 250, 0.42);
@@ -479,40 +479,38 @@ a .img-logo {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #1bb1dc;
+  background: #0a98c0;
 }
 
 #intro .intro-info .btn-get-started:hover,
 #intro .intro-info .btn-services:hover {
-  background: #0a98c0;
+  background: #1bb1dc;
 }
 #intro .intro-info h3,h5 {
     line-height: 100%;
 }
 #intro .intro-info h2 {
-    color: #2c347e;
+    color: #923383;
     margin-bottom: 40px;
-    padding-left: 20px;
     font-size: 48px;
     font-weight: 700;
     text-shadow: 2px 2px 2px white,2px 2px 2px grey;
-
 }
 
 #intro .intro-info h4 {
     margin: 0;
-    padding-bottom: 0;
+    padding: 0;
     font-size: 27px;
     color: #014068;
     text-shadow: -4px 4px 3px white;
 }
 #intro .intro-info h3 {
-    margin-top: 0;
-    margin-bottom: 30px;
-    padding-bottom: 0;
+    margin: 0;
+    padding-top: 0px;
+    padding-bottom: 40px;
     font-weight:600 ;
     font-size: 22px;
-    color: #0981C1;
+    color: #10449f;
     text-shadow: -2px 2px 2px white;
 }
 #intro p {
@@ -537,14 +535,14 @@ a .img-logo {
 }
 
 #about .about-content h2 {
-  color: #413e66;
+  color: #923383;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
     text-align: center;
 }
 
 #about .about-content h3 {
-  color: #696592;
+  color: #10449f;
   font-weight: 400;
   font-size: 22px;
   font-style: italic;
@@ -622,7 +620,7 @@ a .img-logo {
     font-weight: bold;
     font-size: 48px;
     display: block;
-    color: #555186;
+    color: #10449f;
 }
 
 #about .counters p {
@@ -704,7 +702,7 @@ a .img-logo {
     font-size: 20px;
     font-weight: bold;
     margin: 10px 0 5px 0;
-    color: #111;
+    color: #10449f;
     margin-left: 140px;
 }
 
@@ -750,6 +748,7 @@ a .img-logo {
 #adults h4  {
     font-weight: 600;
     font-size: 24px;
+    color: #10449f;
 
 }
 #adults h4:first-of-type {
@@ -1246,7 +1245,7 @@ Physics
 }
 
 #footer .footer-top .author {
-  color: #0b3cb3;
+  color: #923383;
     font-weight: 400;
     letter-spacing: 1px;
     font-family: "Montserrat", sans-serif;
@@ -1505,7 +1504,7 @@ Physics
 
 @media (min-width: 992px) {
   #intro .intro-info {
-    padding-top: 80px;
+    padding-top: 10px;
   }
   #extra-schools .extra-sch-item p {
     width: 80%;
