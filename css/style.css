@@ -533,12 +533,14 @@ a .img-logo {
 
 #about .about-content {
   padding-top: 40px;
+    text-align: justify;
 }
 
 #about .about-content h2 {
   color: #413e66;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
+    text-align: center;
 }
 
 #about .about-content h3 {
@@ -546,6 +548,11 @@ a .img-logo {
   font-weight: 400;
   font-size: 22px;
   font-style: italic;
+    text-align: center;
+}
+#about .about-content p {
+    text-indent: 3%;
+
 }
 
 #about .about-content ul {
@@ -555,6 +562,8 @@ a .img-logo {
 
 #about .about-content ul li {
   padding-bottom: 10px;
+    text-align: left;
+    text-indent: -4px;
 }
 
 #about .about-content ul li i {
@@ -750,7 +759,19 @@ a .img-logo {
 #adults h4:last-of-type {
     padding-top: -20px;
 }
-
+#adults ul li {
+    list-style-type: none;
+}
+#adults ul li:before {
+    content: counter(item, disc);
+    color: #0a98c0;
+}
+#adults li {
+    margin:0;
+    padding: 0;
+    text-align: left;
+    text-indent: -2%;
+}
 /* ----------
 Study Section
 --------------------------------*/
@@ -1170,10 +1191,9 @@ Physics
 
 
 #footer {
-    padding: 15px 0 30px 0;
     margin: 2em 0;
-    background-color: #75798c;
-    color: #fff;
+    background-color: #F0F3FA;
+    color: #413e66;
 }
 
 
@@ -1184,7 +1204,7 @@ Physics
     padding: 2px 0;
     line-height: 1;
     font-family: "Montserrat", sans-serif;
-    color: #fff;
+    color: #413e66;
     font-weight: 400;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -1197,7 +1217,7 @@ Physics
     font-weight: 400;
     letter-spacing: 1px;
     font-family: "Montserrat", sans-serif;
-    color: #fff;
+    color: #413e66;
 }
 
 #footer .footer-top .footer-links {
@@ -1208,11 +1228,11 @@ Physics
 #footer .footer-top .footer-links p {
     font-size: 13px;
     padding: 1px 0;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-weight: 400;
     letter-spacing: 1px;
     font-family: "Montserrat", sans-serif;
-    color: #fff;
+    color: #413e66;
 }
 
 #footer .footer-top .footer-links  a {
@@ -1221,16 +1241,16 @@ Physics
 }
 
 #footer .footer-top .footer-links a:hover {
-    color: #6feeff;
+    color: #42c3e8;
 
 }
 
 #footer .footer-top .author {
-  color: #b3e9ff;
+  color: #0b3cb3;
     font-weight: 400;
     letter-spacing: 1px;
     font-family: "Montserrat", sans-serif;
-    padding: 30px 0 5px 0;
+    padding: 10px 0 0px 0;
     font-size: 13px;
 
 }
@@ -1497,6 +1517,7 @@ Physics
 @media (max-width: 991px) {
   #intro .intro-img {
     width: 70%;
+
   }
 
   #topbar {
