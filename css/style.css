@@ -545,7 +545,6 @@ a .img-logo {
 }
 #about .about-content p {
     text-indent: 3%;
-
 }
 
 #about .about-content ul {
@@ -1033,11 +1032,8 @@ Physics
 
 
 
-
-
-
-
-/* photo-gallery Section
+/* ---------------------
+ photo-gallery Section
 --------------------------------*/
 
 #photo-gallery {
@@ -1252,128 +1248,128 @@ Physics
 
 
 
-/* Team Section
---------------------------------*/
+/*!* Team Section*/
+/*--------------------------------*!*/
 
-#team {
-  padding: 60px 0;
-}
+/*#team {*/
+/*  padding: 60px 0;*/
+/*}*/
 
-#team .member {
-  text-align: center;
-  margin-bottom: 20px;
-  position: relative;
-  overflow: hidden;
-}
+/*#team .member {*/
+/*  text-align: center;*/
+/*  margin-bottom: 20px;*/
+/*  position: relative;*/
+/*  overflow: hidden;*/
+/*}*/
 
-#team .member .member-info {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  transition: 0.2s;
-  padding: 15px 0;
-  background: rgba(29, 28, 41, 0.6);
-}
+/*#team .member .member-info {*/
+/*  display: -webkit-box;*/
+/*  display: -webkit-flex;*/
+/*  display: -ms-flexbox;*/
+/*  display: flex;*/
+/*  -webkit-box-pack: center;*/
+/*  -webkit-justify-content: center;*/
+/*  -ms-flex-pack: center;*/
+/*  justify-content: center;*/
+/*  -webkit-box-align: center;*/
+/*  -webkit-align-items: center;*/
+/*  -ms-flex-align: center;*/
+/*  align-items: center;*/
+/*  position: absolute;*/
+/*  bottom: 0;*/
+/*  left: 0;*/
+/*  right: 0;*/
+/*  transition: 0.2s;*/
+/*  padding: 15px 0;*/
+/*  background: rgba(29, 28, 41, 0.6);*/
+/*}*/
 
-#team .member .member-info-content {
-  transition: margin 0.2s;
-  height: 40px;
-  transition: height 0.4s;
-}
+/*#team .member .member-info-content {*/
+/*  transition: margin 0.2s;*/
+/*  height: 40px;*/
+/*  transition: height 0.4s;*/
+/*}*/
 
-#team .member:hover .member-info {
-  transition: 0.4s;
-}
+/*#team .member:hover .member-info {*/
+/*  transition: 0.4s;*/
+/*}*/
 
-#team .member:hover .member-info-content {
-  height: 80px;
-}
+/*#team .member:hover .member-info-content {*/
+/*  height: 80px;*/
+/*}*/
 
-#team .member h4 {
-  font-weight: 700;
-  margin-bottom: 2px;
-  font-size: 18px;
-  color: #fff;
-}
+/*#team .member h4 {*/
+/*  font-weight: 700;*/
+/*  margin-bottom: 2px;*/
+/*  font-size: 18px;*/
+/*  color: #fff;*/
+/*}*/
 
-#team .member span {
-  font-style: italic;
-  display: block;
-  font-size: 13px;
-  color: #fff;
-}
+/*#team .member span {*/
+/*  font-style: italic;*/
+/*  display: block;*/
+/*  font-size: 13px;*/
+/*  color: #fff;*/
+/*}*/
 
-#team .member .social {
-  margin-top: 15px;
-}
+/*#team .member .social {*/
+/*  margin-top: 15px;*/
+/*}*/
 
-#team .member .social a {
-  transition: none;
-  color: #fff;
-}
+/*#team .member .social a {*/
+/*  transition: none;*/
+/*  color: #fff;*/
+/*}*/
 
-#team .member .social a:hover {
-  color: #1bb1dc;
-}
+/*#team .member .social a:hover {*/
+/*  color: #1bb1dc;*/
+/*}*/
 
-#team .member .social i {
-  font-size: 18px;
-  margin: 0 2px;
-}
+/*#team .member .social i {*/
+/*  font-size: 18px;*/
+/*  margin: 0 2px;*/
+/*}*/
 
-/* Clients Section
---------------------------------*/
+/*!* Clients Section*/
+/*--------------------------------*!*/
 
-#clients {
-  padding: 60px 0;
-}
+/*#clients {*/
+/*  padding: 60px 0;*/
+/*}*/
 
-#clients img {
-  max-width: 80%;
-  opacity: 0.5;
-  transition: 0.3s;
-  padding: 15px 0;
-}
+/*#clients img {*/
+/*  max-width: 80%;*/
+/*  opacity: 0.5;*/
+/*  transition: 0.3s;*/
+/*  padding: 15px 0;*/
+/*}*/
 
-#clients img:hover {
-  opacity: 1;
-}
+/*#clients img:hover {*/
+/*  opacity: 1;*/
+/*}*/
 
-#clients .owl-nav,
-#clients .owl-dots {
-  margin-top: 5px;
-  text-align: center;
-}
+/*#clients .owl-nav,*/
+/*#clients .owl-dots {*/
+/*  margin-top: 5px;*/
+/*  text-align: center;*/
+/*}*/
 
-#clients .owl-dot {
-  display: inline-block;
-  margin: 0 5px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: #ddd;
-}
+/*#clients .owl-dot {*/
+/*  display: inline-block;*/
+/*  margin: 0 5px;*/
+/*  width: 12px;*/
+/*  height: 12px;*/
+/*  border-radius: 50%;*/
+/*  background-color: #ddd;*/
+/*}*/
 
-#clients .owl-dot.active {
-  background-color: #1bb1dc;
-}
+/*#clients .owl-dot.active {*/
+/*  background-color: #1bb1dc;*/
+/*}*/
 
 
 
-/* Faqs Section
+/* Додаткові сторінки
 --------------------------------*/
 
 #faq {
@@ -1455,54 +1451,75 @@ Physics
     transition: none;
 
 }
-    /*-------------------------
-    # Card-dest respontible
-    ----------------------- */
+/*    !*-------------------------*/
+/*    # Card responsible*/
+/*    ----------------------- *!*/
 
-.card-deck {
-  margin: 0 -15px;
-  justify-content: space-between;
-}
+/*.card-deck {*/
+/*  margin: 0 -15px;*/
+/*  justify-content: space-between;*/
+/*}*/
 
-.card-deck .card {
-  margin: 0 0 1rem;
-}
-@media (min-width: 576px) {
-  .card-deck .card {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex: 1 0 0%;
-    flex: 1 0 0%;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    margin-right: 15px;
-    margin-bottom: 0;
-    margin-left: 15px;
-  }
-}
+/*.card-deck .card {*/
+/*  margin: 0 0 1rem;*/
+/*}*/
+/*@media (min-width: 576px) {*/
+/*  .card-deck .card {*/
+/*    display: -ms-flexbox;*/
+/*    display: flex;*/
+/*    -ms-flex: 1 0 0%;*/
+/*    flex: 1 0 0%;*/
+/*    -ms-flex-direction: column;*/
+/*    flex-direction: column;*/
+/*    margin-right: 15px;*/
+/*    margin-bottom: 0;*/
+/*    margin-left: 15px;*/
+/*  }*/
+/*}*/
 
-@media (min-width: 576px) and (max-width: 767.98px) {
-  .card-deck .card {
-    -ms-flex: 0 0 48.7%;
-    flex: 0 0 48.7%;
+/*@media (min-width: 576px) and (max-width: 767.98px) {*/
+/*  .card-deck .card {*/
+/*    -ms-flex: 0 0 48.7%;*/
+/*    flex: 0 0 48.7%;*/
 
-  }
-}
+/*  }*/
+/*}*/
 
-@media (min-width: 768px) and (max-width: 991.98px) {
-  .card-deck .card {
-    -ms-flex: 0 0 32%;
-    flex: 0 0 32%;
-  }
-}
+/*@media (min-width: 768px) and (max-width: 991.98px) {*/
+/*  .card-deck .card {*/
+/*    -ms-flex: 0 0 32%;*/
+/*    flex: 0 0 32%;*/
+/*  }*/
+/*    #intro .intro-info h2 {*/
+/*        margin-bottom: 32px;*/
+/*        font-size: 38px;*/
 
-@media (min-width: 992px)
-{
-  .card-deck .card {
-    -ms-flex: 0 0 24%;
-    flex: 0 0 31%;
-  }
-}
+/*    }*/
+
+/*    #intro .intro-info h4 {*/
+/*        margin: 0;*/
+/*        padding: 0;*/
+/*        font-size: 27px;*/
+/*    }*/
+/*    #intro .intro-info h3 {*/
+
+/*        padding-bottom: 40px;*/
+/*        font-weight:600 ;*/
+/*        font-size: 22px;*/
+
+/*    }*/
+/*    #intro p {*/
+
+/*    }*/
+/*}*/
+
+/*@media (min-width: 992px)*/
+/*{*/
+/*  .card-deck .card {*/
+/*    -ms-flex: 0 0 24%;*/
+/*    flex: 0 0 31%;*/
+/*  }*/
+/*}*/
 
 
 /*--------------------------------------------------------------
@@ -1539,9 +1556,37 @@ Physics
 
 @media (max-width: 991px) {
   #intro .intro-img {
-    width: 70%;
-
+      width: 80%;
   }
+    #intro .intro-info h2 {
+        color: #923383;
+        margin-bottom: 40px;
+        font-size: 48px;
+        font-weight: 700;
+        text-shadow: 2px 2px 2px white,2px 2px 2px grey;
+    }
+
+    #intro .intro-info h4 {
+        margin: 0;
+        padding: 0;
+        font-size: 27px;
+        color: #014068;
+        text-shadow: -4px 4px 3px white;
+    }
+    #intro .intro-info h3 {
+        margin: 0;
+        padding-top: 0px;
+        padding-bottom: 40px;
+        font-weight:600 ;
+        font-size: 22px;
+        color: #10449f;
+        text-shadow: -2px 2px 2px white;
+    }
+    #intro p {
+        color: #014068;
+        font-weight:400 ;
+        text-shadow: -2px 2px 1px white;
+    }
 
   #topbar {
     display: none;
@@ -1627,6 +1672,7 @@ Physics
     margin-left: 0;
   }
 }
+
 
 @media (max-width: 574px) {
   #footer .footer-top .social-links a {
