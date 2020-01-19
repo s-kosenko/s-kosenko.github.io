@@ -1688,6 +1688,13 @@ Physics
     bottom: 15px;
 }
 
+    #faq {
+        padding: 15px 0;
+    }
+    #my-class {
+        padding: 25px 0;
+    }
+
 }
 
 
@@ -1736,8 +1743,27 @@ Physics
         font-size: 1em;
     }
 
+    #physics h4 {
+        font-size: 20px;
+    }
+    #information h4 {
+        font-size: 20px
+    }
+    .section-header h3 {
+        font-size: 32px;
+    }
+    .img-fluid {
+        width: 40%;
+    }
 
+    #about .counters span {
+        font-size: 30px;
+    }
 
-
-
+    #faq {
+        padding: 15px 0;
+    }
+    #my-class {
+        padding: 35px 0;
+    }
 }
