@@ -184,7 +184,7 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo {
   padding: 0;
   margin: 7px 0;
-  max-height: 26px;
+  max-height: 5px;
 }
 a .img-logo {
   margin: -15px 0 0 0 ;
@@ -1526,7 +1526,7 @@ Physics
 # Responsive Media Queries
 --------------------------------------------------------------*/
 
-@media (min-width: 991.5px) {
+@media (min-width: 992px) {
   #call-to-action .cta-btn-container {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1579,6 +1579,18 @@ Physics
     /*    font-weight:400 ;*/
     /*    text-shadow: -2px 2px 1px white;*/
     /*}*/
+
+    .mobile-nav .drop-down > a:after {
+        content: "";
+
+    }
+
+    .mobile-nav .active.drop-down > a:after {
+        content: "";
+    }
+
+
+
     #topbar {
         display: none;
     }
@@ -1610,11 +1622,15 @@ Physics
     #study .card {
         margin-bottom: 50px;
     }
+    #my-class {
+        padding: 75px 0;
+    }
+    #header .logo {
+        max-height: 2px;
+    }
 }
 
-@media (min-width 768px) and (max-width 991 px) {
 
-}
 
 @media (max-width: 767px) {
     .section-header p {
