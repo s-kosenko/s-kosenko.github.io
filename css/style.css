@@ -1373,7 +1373,7 @@ Physics
 
 
 
-/* Frequently Asked Questions Section
+/* Faqs Section
 --------------------------------*/
 
 #faq {
@@ -1423,12 +1423,22 @@ Physics
 #faq #faq-list a.collapsed i::before {
   content: "\f2c7" !important;
 }
+#faq #faq-list .inside {
+    color: #0b3cb3;
+    margin: 0;
+    padding: 3px 0;
+    font-size: 16px;
+    transition: none;
+}
+#faq #faq-list .inside:hover {
+    color: #1bb1dc;
+    font-weight: 600;
+    transition: none;
 
-
-
-/*-------------------------
-# Card-dest respontible
------------------------ */
+}
+    /*-------------------------
+    # Card-dest respontible
+    ----------------------- */
 
 .card-deck {
   margin: 0 -15px;
