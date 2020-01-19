@@ -1692,7 +1692,52 @@ Physics
 
 
 @media (max-width: 574px) {
-  #footer .footer-top .social-links a {
-    margin-bottom: 25px;
-  }
+
+    #intro .intro-info h2 {
+        margin-bottom: 15px;
+        padding-top: 5px;
+        font-size: 23px;
+    }
+
+    #intro .intro-info h4 {
+        margin: 0;
+        padding: 0;
+        font-size: 18px;
+    }
+
+    #intro .intro-info h3 {
+        margin: 0;
+        padding-top: 0px;
+        padding-bottom: 5px;
+        font-size: 17px;
+    }
+
+    #intro .intro-info {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    #intro .img-fluid {
+        width: 55%;
+    }
+
+    #intro .intro-info p {
+        margin: 0 0 20px 0;
+    }
+
+    #about .about-img img {
+        width: auto;
+    }
+
+    #about .about-content h2 {
+        font-size: 1.6em;
+    }
+    #about .about-content h3{
+        font-size: 1em;
+    }
+
+
+
+
+
 }
