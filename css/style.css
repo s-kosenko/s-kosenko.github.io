@@ -1752,7 +1752,7 @@ Physics
     .section-header h3 {
         font-size: 32px;
     }
-    .img-fluid {
+    #adults .img-fluid {
         width: 60%;
     }
 
