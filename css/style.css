@@ -1526,7 +1526,7 @@ Physics
 # Responsive Media Queries
 --------------------------------------------------------------*/
 
-@media (min-width: 991px) {
+@media (min-width: 991.5px) {
   #call-to-action .cta-btn-container {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1541,121 +1541,109 @@ Physics
     -ms-flex-pack: end;
     justify-content: flex-end;
   }
-}
-
-@media (min-width: 992px) {
-  #intro .intro-info {
-    padding-top: 10px;
-  }
-  #extra-schools .extra-sch-item p {
-    width: 80%;
-  }
+    #intro .intro-info {
+        padding-top: 10px;
+    }
+    #extra-schools .extra-sch-item p {
+        width: 80%;
+    }
 }
 
 
 
 @media (max-width: 991px) {
-  #intro .intro-img {
-      width: 80%;
-  }
+    /*#intro .intro-img {*/
+    /*    width: 80%;*/
+    /*}*/
     #intro .intro-info h2 {
-        color: #923383;
-        margin-bottom: 40px;
-        font-size: 48px;
-        font-weight: 700;
-        text-shadow: 2px 2px 2px white,2px 2px 2px grey;
+        margin-bottom: 30px;
+        font-size: 42px;
     }
 
     #intro .intro-info h4 {
         margin: 0;
         padding: 0;
-        font-size: 27px;
-        color: #014068;
-        text-shadow: -4px 4px 3px white;
+        font-size: 23px;
     }
+
     #intro .intro-info h3 {
         margin: 0;
         padding-top: 0px;
         padding-bottom: 40px;
-        font-weight:600 ;
-        font-size: 22px;
-        color: #10449f;
-        text-shadow: -2px 2px 2px white;
-    }
-    #intro p {
-        color: #014068;
-        font-weight:400 ;
-        text-shadow: -2px 2px 1px white;
+        font-size: 20px;
+        line-height: 120%;
     }
 
-  #topbar {
-    display: none;
-  }
+    /*#intro p {*/
+    /*    color: #014068;*/
+    /*    font-weight:400 ;*/
+    /*    text-shadow: -2px 2px 1px white;*/
+    /*}*/
+    #topbar {
+        display: none;
+    }
 
-  #header {
-    height: 70px;
-    padding: 15px 0;
-  }
+    #header {
+        height: 70px;
+        padding: 15px 0;
+    }
 
-  #header .logo h1 {
-    font-size: 20px;
-    padding: 8px 0;
-  }
+    #header .logo h1 {
+        font-size: 20px;
+        padding: 8px 0;
+    }
 
-  #my-class .my-class-content {
-    padding-top: 30px;
-  }
+    #about .about-content ul li {
+        padding-bottom: 10px;
+        text-align: left;
+        text-indent: -4px;
+    }
 
-  #study {
-    padding-bottom: 30px;
-  }
+    #my-class .my-class-content {
+        padding-top: 30px;
+    }
 
-  #study .card {
-    margin-bottom: 50px;
-  }
+    #study {
+        padding-bottom: 30px;
+    }
+
+    #study .card {
+        margin-bottom: 50px;
+    }
 }
 
-@media (max-width: 768px) {
-  .back-to-top {
-    bottom: 15px;
-  }
+@media (min-width 768px) and (max-width 991 px) {
 
-  #faq #faq-list a {
-    font-size: 18px;
-  }
-
-  #faq #faq-list i {
-    top: 13px;
-  }
 }
 
 @media (max-width: 767px) {
-  #intro {
+    .section-header p {
+        width: 100%;
+    }
+
+    #intro {
     height: auto;
     padding: 80px 0 60px 0;
-  }
+}
 
-  #intro .container {
+    #intro .container {
     height: auto !important;
-  }
+}
 
-  #intro .intro-img {
+    #intro .intro-img {
     width: 80%;
-  }
+}
 
-  #intro .intro-info {
+    #intro .intro-info {
     text-align: center;
     padding-top: 40px;
-  }
+}
 
-  #intro .intro-info h2 {
+    #intro .intro-info h2 {
     font-size: 34px;
     margin-bottom: 30px;
-  }
+}
 
-  .section-header p {
-    width: 100%;
-  }
 
   #extra-schools .extra-sch-item {
     text-align: center;
@@ -1671,6 +1659,19 @@ Physics
   #extra-schools .extra-sch-item p {
     margin-left: 0;
   }
+
+    #faq #faq-list a {
+        font-size: 18px;
+    }
+
+    #faq #faq-list i {
+        top: 13px;
+    }
+
+    .back-to-top {
+    bottom: 15px;
+}
+
 }
 
 
